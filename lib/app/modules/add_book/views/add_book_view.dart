@@ -10,7 +10,7 @@ class AddBookView extends GetView<AddBookController> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('LoginView'),
+        title: const Text('TAMBAH BUKU'),
         centerTitle: true,
       ),
       body: Center(

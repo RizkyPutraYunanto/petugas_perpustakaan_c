@@ -12,7 +12,7 @@ class BookView extends GetView<BookController> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('BookView'),
+        title: const Text('BUKU'),
         centerTitle: true,
       ),
       floatingActionButton: FloatingActionButton(
