@@ -29,7 +29,7 @@ class PeminjamanController extends GetxController with StateMixin<List<DataPinja
     change(null, status: RxStatus.loading());
 
     try {
-      final response = await ApiProvider.instance().get(Endpoint.book,
+      final response = await ApiProvider.instance().get(Endpoint.pinjam,
 
       );
       if (response.statusCode == 200) {

@@ -133,11 +133,11 @@ class Book {
     updatedAt = json['updated_at'];
   }
   int? id;
-  int? kategoriId;
+  String? kategoriId;
   String? judul;
   String? penulis;
   String? penerbit;
-  int? tahunTerbit;
+  String? tahunTerbit;
   String? createdAt;
   String? updatedAt;
 
